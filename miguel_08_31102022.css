@@ -1,0 +1,30 @@
+
+img{
+    width: 25%;
+}
+
+.header1{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid img{
+    width: 100%;
+    grid: 20px solid white;
+    margin: auto;
+}
+
+body{
+    background-color: aqua;
+    margin: 10%;
+    padding: 15px;
+}

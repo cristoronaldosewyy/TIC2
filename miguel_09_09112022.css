@@ -1,0 +1,23 @@
+/*
+    CSS practica 09
+    miguel garcia gonzalez
+    noviembre 2022
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+header,footer{
+    background-image: linear-gradient(to bottom,red,yellow,red);
+    padding: 20px;
+    border: 2px solid black;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

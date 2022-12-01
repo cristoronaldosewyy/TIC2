@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+
+}
+
+caption{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+main{
+    width: 60%;
+    margin: auto;
+}
+iframe{
+    border-radius: 50%;
+    width: 60%;
+    transition: all 1s ease;
+}
+iframe:hover{
+    transform: scale(1.1) rotate(-5deg);
+}
+
+
+table{
+    background-image:
+    linear-gradient(to bottom,
+    rgba(0, 0, 255, 0.51), white);
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    caption-side: bottom;
+}
+
+caption{
+    margin: 10px;
+}
+
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td{
+    text-align: center; 
+    padding: 10px;
+}
+
