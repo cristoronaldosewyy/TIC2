@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+.menuh{
+    width: 70%;
+    margin: 20px auto 20px auto;
+}
+
+.menuh a,.menuv a{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+
+}
+.menuh a:hover,.menuv a:hover{
+    background-color: rgb(139, 66, 66);
+
+}
+
+.menuv a{
+    float: none;
+    display: block;
+    width: 30%;
+}
+.menuv{
+    width: 50%;
+    float: left;
+}
