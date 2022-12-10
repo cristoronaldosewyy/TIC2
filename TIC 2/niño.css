@@ -28,40 +28,14 @@ background-color: cornflowerblue;
     background-color: chocolate;
 }
 
-
-ul li{
-    list-style-type: none;
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: left center;
-        background-position-x: -5px;
-    padding: 0px 0px 0px 25px;
- }
-
-.procesador{
-    background-image: url(./imagenes/procesador.jpg);
+.principal{
+    font-size: 70px;
+    background-color: aqua;
 }
-.placabase{
-    background-image: url(./imagenes/placa\ base.jfif);
+body{
+    background-image: url(./imagenes/android-icon-192x192.png);
 }
-.ventilador{
-    background-image: url(./imagenes/ventilador.jfif);
-}
-.discoduro{
-    background-image: url(./imagenes/disco\ duro.webp);
-}
-.memoria{
-    background-image: url(./imagenes/memoria.jpg);
-}
-.grafica{
-    background-image: url(./imagenes/grafica.jpg);
-}
-.conexiones{
-    background-image: url(./imagenes/conexionesdelanteras.gif);
-}
-.torre{
-    background-image: url(./imagenes/torre.webp);
-}
-.dimensiones{
-    background-image: url(./imagenes/dimensiones.webp);
+.secundario{
+    background-color: aquamarine;
+    font-size: 50px;
 }

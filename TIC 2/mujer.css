@@ -1,4 +1,42 @@
-
+*{
+    margin: 0px;
+    box-sizing:border-box;
+}
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 40px;
+    font-size: 100px;
+}
 img{
+    width: 25%;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.grid img{
+    width: 100%;
+    grid: 20px solid white;
+    margin: auto;
+}
+body{
+    background-color: aqua;
+    margin: 10%;
+    padding: 15px;
+    background-image: url(./imagenes/fondomujer.jpg);
+}
+div{
     width: 100%;
 }

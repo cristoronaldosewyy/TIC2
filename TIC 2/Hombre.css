@@ -8,10 +8,11 @@ caption{
     margin: 10px;
 }
 
+
 table{
-    background-image:
+    background-image: 
     linear-gradient(to bottom,
-    rgba(0, 0, 255, 0.51), white);
+    rgba(0, 0, 255, 0.51), rgb(151, 133, 218));
     border-collapse: collapse;
     border: 3px solid black;
     margin: auto;
@@ -31,4 +32,26 @@ th{
 td{
     text-align: center; 
     padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+    margin: 50px;
+}
+h2{
+    background-color: aqua;
+    text-align: center;
+    font-size: 5opx;
+}
+body{
+    background-image: url(./imagenes/fondohombre.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+hr{
+    border: 3px solid black ;
 }
